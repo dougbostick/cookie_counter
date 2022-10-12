@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    border: 1px solid black;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black;  */
+    flex: 2;
+}
+#counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+#count {
+    font-size: 42px;
+}
+
+#button_div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+button {
+  font-size: 28px;
+  background-color: dodgerblue;
+  color: white;
+  padding: 8px;
+  border: none;
+  box-shadow: 3px 3px 5px gray;
+}
+
+button:active {
+    background-color: white;
+    color: dodgerblue;
+}
