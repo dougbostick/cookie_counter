@@ -32,4 +32,10 @@ font.addEventListener('click', () => {
     cookieh1.style.fontSize = `${curFont}px`;
 })
 
+let resetFont = document.getElementById('resetFont');
+
+resetFont.addEventListener('click', () => {
+    cookieh1.style.fontSize = '38px';
+    curFont = 38;
+})
  
